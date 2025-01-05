@@ -1,0 +1,225 @@
+* {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 90%;
+  margin: auto;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+  background: #fff;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  border-bottom: 2px solid #989893;
+  padding-bottom: 10px;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+  color: #ffd700;
+}
+
+header .register-btn {
+  background-color: #ffd700;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  color: #000;
+  transition: background 0.3s ease;
+}
+
+header .register-btn:hover {
+  background-color: #e6c200;
+}
+
+/*===========================================================*/
+
+/* Hero Section */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 60px 5%;
+}
+
+.hero article h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  width: 500px;
+}
+.hero article p {
+  width: 423px;
+  line-height: 1.8;
+}
+.hero article form input {
+  width: 30%;
+  padding: 10px;
+  margin: 20px;
+  text-align: center;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  border: 1px solid gray;
+}
+
+::placeholder {
+  color: gray;
+  /* text-align: center; */
+  margin-left: 30px;
+}
+
+.hero article form input[type="submit"] {
+  background-color: #ffd700;
+  width: 30%;
+  margin: auto;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 30px;
+  border: none;
+}
+.hero figure img {
+  max-width: 500px;
+}
+
+/*=========================================================*/
+
+.partners {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 20px 5%;
+}
+
+.partners h2 {
+  font-weight: 700;
+  font-size: 35px;
+  width: 47%;
+}
+
+.partners p {
+  width: 256px;
+  font-size: 12px;
+}
+
+/*=================================================================*/
+
+/* Features Section */
+.features {
+  padding: 40px 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.features article {
+  text-align: center;
+  width: ;
+  background-color: #fff0bf;
+}
+
+.features h2 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.feature-cards {
+  gap: 40px;
+}
+
+.card {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff8e1;
+}
+
+.card img {
+  max-width: 100px;
+}
+
+/* Stats Section */
+.stats {
+  padding: 40px 5%;
+  text-align: center;
+}
+
+.stats .numbers {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+/* Download Section */
+.download {
+  padding: 60px 5%;
+  text-align: center;
+  background-color: #ffd700;
+}
+
+.download button {
+  margin-top: 20px;
+  padding: 10px 30px;
+  border: none;
+  background-color: #000;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 5%;
+  background-color: #333;
+  color: #fff;
+}
+
+footer .links ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer a {
+  color: #ffd700;
+}
