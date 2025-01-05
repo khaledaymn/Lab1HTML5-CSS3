@@ -9,3 +9,5 @@ LinguaBoost is a language learning platform designed to make learning languages 
 2. Statistics showcasing platform impact.
 
 3. Download links for Apple App Store and Google Play Store.
+
+# Open WebSite (https://khaledaymn.github.io/Lab1HTML5-CSS3/)
